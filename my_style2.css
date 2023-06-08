@@ -1,0 +1,12 @@
+
+.header{margin:-8px -8px 0px;
+background-color:lightgreen;
+color:white;text-align:center;padding:10px;}
+.container{width:100%}
+.left{width:15%;float:left;}
+.body{width:65%;float:left;
+	background-color:lightblue;padding:5px;}
+	.right{width:15%;float:left;}
+	.footer{margin:-8px;
+	clear:both;background-color:light green;
+	color:white;text-align:center;padding:10px;}

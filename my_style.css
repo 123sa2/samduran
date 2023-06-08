@@ -1,0 +1,85 @@
+body {
+	background-color: lightgreen;
+/*opacity:0.1;*/
+}
+h1,h2{
+	font-size:60; 
+	font-style:italic;
+	text-align:center;
+	color: black ;
+	margin-left:20px;
+	 
+}
+p{ 
+	text-align:center;
+	color:gray;
+}
+
+form{
+	border:3px solid black;
+}
+
+input[type=text], input[type=Password] 
+{
+	width:100%;
+	margin:8px 0;
+	padding:12px 20px;
+	border:2px solid black;
+	box-sizing: border-box;
+	
+}
+
+button{
+	width:100%;
+	padding:5px;
+	cursor:pointer;
+}
+
+button:hover{
+	opacity: 0.7;
+}
+
+.container{
+	padding: 25px;
+	
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: 0;
+	
+}
+li{
+	float:left;
+	border-right:2px solid black;
+}
+
+li a{
+	display:block;
+	color:white;
+	padding:14px 16px;
+	text-decoration:none;
+	text-align: center;
+}
+
+
+
+li a:hover:not(.active) {
+	background-color:black;
+}
+
+
+table{
+	width: 100%;
+	border:2px solid black;
+}
+th,td{
+	text-align:left;
+	border:2px solid black;
+	padding:2px;
+}
+tr:nth-child(even){
+	background-color: white;
+}
